@@ -13,78 +13,42 @@ body {
     background-repeat: no-repeat;
     justify-content: flex-start;
     align-items: center;
-<<<<<<< HEAD
     width: 100%
 }
 
 div.napisy1 {
-    width: 100%;
-=======
-    width:100%;
-}
 
-div.napisy1 {
-    
->>>>>>> 773a013089ef99da5571f7f23ef408f971562b35
     padding: 25px;
     color: white;
     display: block;
+    width: 100%;
 }
 
 @media (min-width: 992px) and (max-width: 1170px) {
 
     .main-header {
         background-image: url("../img/man-2.jpg");
-<<<<<<< HEAD
         background-size: 100vh;
         justify-content: center;
         align-items: center;
     }
 
     div.napisy1 {
-         position: relative;
+        position: relative;
         text-align: center;
         color: greenyellow;
         text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
-        top: -70px;
-=======
-        height: 70vh;
-        position:relative;
-    }
-    
-    div.napisy1{
-        font-size: 0.8em;
-        position:absolute;
-        top: 0;
-        left: 600px; 
->>>>>>> 773a013089ef99da5571f7f23ef408f971562b35
+        position: right;
     }
 }
 
-@media(max-width: 992px) {
-    .main-header {
-<<<<<<< HEAD
+@media (max-width: 991px) {
+     .main-header {
         background-size: 50vh;
-
-        /*        align-content: flex-end;*/
     }
 
     div.napisy1 {
         color: black;
-=======
-        height: 50vh;
-        position:relative;
-        
-    }
-    
-    
-    
-    div.napisy1{
-        width:80%;
-        color:black;
->>>>>>> 773a013089ef99da5571f7f23ef408f971562b35
         text-align: center;
-        position: absolute;
-        bottom: -175px;
     }
 }
